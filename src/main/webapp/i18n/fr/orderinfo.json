@@ -1,0 +1,25 @@
+{
+    "warehouseApp": {
+        "orderinfo" : {
+            "home": {
+                "title": "Orderinfos",
+                "createLabel": "Créer un nouveau Orderinfo",
+                "createOrEditLabel": "Créer ou éditer un Orderinfo",
+                "search": "Search for Orderinfo"
+            },
+            "created": "Un nouveau Orderinfo a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Orderinfo avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Orderinfo avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Orderinfo {{ id }} ?"
+            },
+            "detail": {
+                "title": "Orderinfo"
+            },
+            "datecreate": "Datecreate",
+            "status": "Status",
+            "customer": "Customer"
+        }
+    }
+}
+

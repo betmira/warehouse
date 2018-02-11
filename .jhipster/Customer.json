@@ -1,0 +1,29 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "firstname",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "lastname",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 3,
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "pattern"
+            ],
+            "fieldValidateRulesPattern": "^[a-zA-Z0-9]*$",
+            "fieldValidateRulesPatternJava": "^[a-zA-Z0-9]*$"
+        }
+    ],
+    "changelogDate": "20160310192950",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "pagination": "infinite-scroll"
+}
